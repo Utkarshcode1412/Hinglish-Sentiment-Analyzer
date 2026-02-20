@@ -14,4 +14,4 @@ This project uses Natural Language Processing (NLP) and a Naive Bayes classifier
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Utkarshcode1412/Hinglish-Sentiment-Analyzer.git](https://github.com/Utkarshcode1412/Hinglish-Sentiment-Analyzer.git)
+   python sentiment_analyzer.py
