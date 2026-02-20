@@ -14,7 +14,7 @@ except FileNotFoundError:
 
 # 2. Split the dataset into training and testing
 # (This looks for the 'text' and 'sentiment' columns in your CSV)
-X_train, X_test, y_train, y_test = train_test_split(df['text'], df['sentiment'], test_size=0.25, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(df['review'], df['sentiment'], test_size=0.25, random_state=42)
 
 # 3. Create and Train the Model
 model = make_pipeline(TfidfVectorizer(), MultinomialNB())
