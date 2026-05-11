@@ -11,7 +11,5 @@ This project uses Natural Language Processing (NLP) and a Naive Bayes classifier
 * **Data Processing:** Pandas, TfidfVectorizer
 
 ## 🛠️ How to Run Locally
-
-1. **Clone the repository:**
    ```bash
    python sentiment_analyzer.py
